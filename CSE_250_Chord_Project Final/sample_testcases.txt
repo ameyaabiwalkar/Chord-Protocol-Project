@@ -1,0 +1,41 @@
+add_node n0 0
+add_node n1 30
+add_node n2 65
+add_node n3 110
+add_node n4 160
+add_node n5 230
+join n0 None
+join n1 n0
+join n2 n1
+join n3 n2
+join n4 n3
+join n5 n4
+insert_node n0 3 3
+insert_node n1 200
+insert_node n2 123
+insert_node n3 45 3
+insert_node n4 99
+insert_node n2 60 10
+insert_node n0 50 8
+insert_node n3 100 5
+insert_node n3 101 4
+insert_node n3 102 6
+insert_node n5 240 8
+insert_node n5 250 10
+print_finger n0
+print_finger n1
+print_finger n2
+print_finger n3
+print_finger n4
+print_finger n5
+print_keys n0
+print_keys n1
+print_keys n2
+print_keys n3
+print_keys n4
+print_keys n5
+add_node n6 100
+join n6 n0
+lookup n0
+lookup n2
+lookup n6
